@@ -1,0 +1,542 @@
+
+/* 배너 부분 */
+.content {
+    padding: 200px 40px 0;
+}
+/* 탑 컨덴트 */
+.top_contain {
+    padding: 0 40px 50px;
+    border-bottom: 1px solid rgb(227, 227, 227);
+}
+.top_brand_box > p {
+    font-size: 18px;
+    color: rgba(34, 34, 34, .5); 
+    margin: 0;
+}
+.flex_box {
+
+    width: 100%;
+    height: 320px;
+    position: relative;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.flex_box > .brand_img_item {
+    width: calc((100% - 80px) / 5);
+}
+.brand_img_box {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+.brand_img  {
+    width: 100%;
+    height: 100px;
+    border-radius: 8px;
+}
+
+.brand_img_box > p {
+    font-size: 15px;
+    margin: 5px;
+}
+
+/* 메인 컨덴트 */
+.main_contain {
+    display: flex;
+    padding: 0  0 60px;
+    position: relative;
+    
+}
+
+/* ================================== 오른쪽부분 */
+.right_main  {
+    width: calc(100% - 200px)
+}
+.right_main > p {
+    color: rgba(34, 34, 34, .8);
+    font-size: 13px;
+}
+.item_box {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+
+    padding-top: 50px;
+}
+.item_box > a {
+    width: calc((100% - 60px) / 4 );
+}
+.item_img {
+    width: 100%;
+    padding-bottom: 100%;
+    position: relative;
+
+    border-radius: 10px;
+    
+}
+.wing {
+    position: absolute;
+    right: 5px;
+    bottom:10px;
+}
+
+.price {
+    font-weight: 900;
+    padding: 10px 0;
+}
+.trade {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 12px;
+    color: rgb(121, 121, 121);
+}
+/*  빠른배송부분````````````````````````````````````````````````````` */
+
+.fast_give > span {
+    color: #00e169;
+    font-size: 10px;
+    transform: translateY(-50%);
+    position: absolute;
+    top: 50%;
+    left: 20px;
+
+    transform: translateY(-50%);
+    
+}
+.fast_give > img {
+    width: 12px;
+    height: 12px;
+
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+
+}
+
+
+.left_fast_give{
+    width: 90px;
+    height: 31px;
+    margin: 12px 0 12px 5px;
+    background-color: #f2f9f6;
+    border-radius: 20px;
+    
+    position: relative;
+}
+.fast_give {
+    width: 65px;
+    height: 20px;
+    margin-top:10px;
+    background-color: #f2f9f6;
+    border-radius: 20px;
+    position: relative;
+
+    display: none;
+    
+}
+.left_fast_give  > span {
+        color: #00e169;
+        font-size: 14px;
+        color: rgba(34, 34, 34, .8);
+        transform: translateY(-50%);
+        position: absolute;
+        top: 50%;
+        left: 20px;
+    
+        transform: translateY(-50%);
+        
+    }
+.fast_give > span {
+    color: #00e169;
+    font-size: 10px;
+    transform: translateY(-50%);
+    position: absolute;
+    top: 50%;
+    left: 20px;
+
+    transform: translateY(-50%);
+    
+}
+.left_fast_give > img {
+    width: 14px;
+    height: 14px;
+
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+}
+.fast_give > img {
+    width: 12px;
+    height: 12px;
+
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+
+}
+/*  빠른배송부분````````````````````````````````````````````````````` */
+.item_box > a > h4 {
+margin: 5px 0 0 5px;
+}
+.item_box > a > p {
+    margin: 0 0 0 5px;
+    font-size: 13px;
+}
+.add_box {
+    width: 100%;
+    height: 80px;
+
+    position: relative;
+    bottom: 20px;
+}
+.add {
+    width: 100px;
+    height: 50px;
+    line-height: 48px;
+    text-align: center;
+    
+    border: 1px solid rgb(197, 196, 196);
+    border-radius: 10px;
+
+    position: absolute;
+    left: 50%;
+    bottom:0;
+
+    cursor: pointer;
+
+    transform: translateX(-50%);
+}
+/* ================================== 왼쪽부분 */
+.left_main{
+    position: relative;
+    width: 200px;
+    height: 800px;
+    overflow-y: auto;
+    overflow-x:hidden ;
+    scrollbar-width: none;
+}
+.color,
+.gender,
+.category {
+    padding-right: 20px;
+}
+
+.color_outer,
+.category_outer {
+    width: 100%;
+    padding: 16px 0;
+    border-top: 1px solid rgb(202, 202, 202);
+}
+.plus {
+    width: 20px;
+    height: 20px;
+    color: rgb(192, 192, 192);
+    font-weight: 900;
+    cursor: pointer;
+}
+.color_txt,
+.gender_txt,
+.category_txt {
+    display: flex;
+    justify-content: space-between;
+}
+.txt_box > p {
+    margin: 0;
+    font-size: 13px;
+}
+
+.txt_box > span {
+    margin: 0;
+    font-size: 15px;
+    color: rgba(34, 34, 34, .5);
+}
+
+.inner_gender,
+.category_innner {
+height: 40px;
+display: flex;
+align-items: center;
+gap: 5px;
+}
+
+
+.inner_gender  > p,
+.category_innner > p{
+    font-size: 14px; 
+}
+
+input {
+    outline: none;
+    border-color: rgb(202, 202, 202);
+    width: 17px;
+    height: 17px;
+    border-radius: 0px;
+    cursor: pointer;
+}
+.check_btn_box {
+    width: 17px;
+    height: 17px;
+    border: 1px solid #d3d3d3;
+    box-sizing: border-box;
+}
+.color_box {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.color_inner  {
+width:calc((100% - 10px) / 3);
+padding-top: 10px;
+display: flex;
+gap: 5px;
+flex-direction: column;
+}
+
+.color_inner > p {
+    font-size: 12px;
+}
+
+.circle_color  {
+    width: 28px;
+    height: 28px;
+
+    background: black;
+    border-radius: 50%;
+    border: 1px solid rgba(34, 34, 34, 0.05);
+}
+
+
+@media screen and (max-width: 960px) { 
+    .content {
+        padding: 100px 40px 0;
+    }
+
+    .item_box {
+        width: 700px;
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+    
+        padding-top: 50px;
+    }
+
+    .item_img {
+        width: 150px;
+        padding-bottom: 150px;
+        position: relative;
+        border-radius: 10px;}
+    
+        .main_contain {
+            max-width: 900px;
+        }
+
+        .left_main {
+            height: auto; 
+        }
+    .top_contain {
+    padding: 0px 0px 100px;
+}
+    
+/* 스크롤 바 만들기. */
+}
+
+@media screen and (max-width: 765px) {
+    
+    .content{
+        padding: 120px 0 0;
+    }
+    .main_contain {
+        display: flex;
+        flex-direction: column;
+        padding: 0 0 60px;
+        
+}
+.color_outer, .category_outer {
+    border: 0;
+}
+.top_contain {
+
+    border-bottom: 1px solid rgb(227, 227, 227);
+}
+.left_main{
+    position: relative;
+    width: 100%;
+}
+.right_main  {
+    width:100%
+} 
+
+.left_main {
+    display: flex;
+}
+.left_main > h4{
+    display: none;
+}
+
+.plus {
+    display: none;
+}
+.gender,
+.color,
+.category {
+    width: 90px;
+    height: 31px;
+    line-height: 36px;
+    margin: 12px 0 12px 5px;
+    background-color: #f2f9f6;
+    border-radius: 20px;
+
+    text-align: center;
+    padding:0 10px; 
+    }
+.color_outer,
+.category_outer {
+        padding:0;
+        border-bottom: none;
+        justify-content: space-around
+}
+.color_txt > span,
+.gender_txt> span,
+.category_txt > span{
+display: none;
+}
+.category_innner,
+.inner_gender {
+    display: none;
+}
+.color_box {
+    display: none;
+}
+
+
+.item_box > a {
+    width: calc((100% - 20px) / 2 );
+}
+.item_img {
+    width: 100%;
+    padding-bottom: 100%;
+    position: relative;
+    border-radius: 10px;}
+
+    .main_contain {
+        max-width: 900px;
+    }
+
+}
+.txt_box > span {
+    display: none;
+}
+
+@media screen and (max-width: 325px) { 
+
+
+    .flex_box {
+        width: 100%;
+        height: auto;
+        position: relative;
+        display: flex;
+        gap: 5px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .flex_box > .brand_img_item {
+        width: calc((100% - 20px) / 5);
+    }
+    .brand_img_box {
+        margin-top: 0px;
+    }
+    .brand_img_box > p {
+        font-size: 12px;
+        margin: 5px;
+    }
+    .left_fast_give {
+        width: 90px;
+        height: 31px;
+        margin: 12px 0 12px 5px;
+        background-color: #f2f9f6;
+        border-radius: 20px;
+        position: relative;
+    }
+    .left_fast_give > span {
+        font-size: 12px;
+    }
+
+    
+    .gender, .color, .category {
+    width: 50px;
+    }
+    .color_txt > p, .gender_txt > p, .category_txt > p {
+        font-size: 11px;
+    }
+
+    .item_box {
+        width: auto;
+        max-width: 325px;
+        gap: 10px;
+        padding-top: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
