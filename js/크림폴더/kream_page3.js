@@ -13,7 +13,7 @@ $(document).ready(function(){
         function header_scroll() {
             let w_h = $(window).scrollTop();
                 if($(window).width() > 960) {    
-                    scroll_header()
+
                 }
                 else if ($(window).width() <= 960 && 765 < $(window).width()){
                         if (h_height <= w_h) {

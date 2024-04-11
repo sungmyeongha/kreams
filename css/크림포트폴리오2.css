@@ -388,7 +388,6 @@ flex-direction: column;
 .gender,
 .color,
 .category {
-    width: 90px;
     height: 31px;
     line-height: 36px;
     margin: 12px 0 12px 5px;
